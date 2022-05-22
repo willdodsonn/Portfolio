@@ -1,19 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./navbar.css";
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light bg-light">
+		<header className="main-header">
 			<div className="container">
-				<Link to="/">
-					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
-				</Link>
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
-					</Link>
-				</div>
+				<nav className="navbar navbar-expand-lg main-nav px-0 pt-0 navbarContainer">
+				<div className="nav-title">My Portfolio</div>
+					<img
+						//   src={buddyImg}
+						id="userGoalPic"
+						className="CharacterCard-img-top"
+						alt="..."
+					/>
+					<button
+						className="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#mainMenu"
+						aria-controls="mainMenu"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span className="icon-bar icon-bar-1"></span>
+						<span className="icon-bar icon-bar-2"></span>
+						<span className="icon-bar icon-bar-3"></span>
+					</button>
+					<div className="collapse navbar-collapse" id="mainMenu">
+						<ul className="navbar-nav ml-auto text-uppercase f1">
+							<li>
+								<a href="/">Home</a>
+							</li>
+							<li>
+								<a href="/LoginPage">Login</a>
+							</li>
+							<li>
+								<a href="/AccountApp">Sign Up</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
-		</nav>
+		</header>
 	);
 };
