@@ -1,12 +1,16 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-
+body {
+  background-image: url("https://images.unsplash.com/photo-1517210122415-b0c70b2a09bf?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+  background-size: 100%;
+  background-attachment: fixed;
+}
 /* body{
     background-color: #343a40;
 } */
