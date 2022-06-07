@@ -6,7 +6,7 @@ export const Navbar = () => {
 		<header className="main-header">
 			<div className="container">
 				<nav className="navbar navbar-expand-lg main-nav px-0 pt-0 navbarContainer">
-				<div className="nav-title">My Portfolio</div>
+				<div className="nav-title">David Dodson</div>
 					<img
 						//   src={buddyImg}
 						id="userGoalPic"
@@ -29,13 +29,13 @@ export const Navbar = () => {
 					<div className="collapse navbar-collapse" id="mainMenu">
 						<ul className="navbar-nav ml-auto text-uppercase f1">
 							<li>
-								<a href="/">Home</a>
+								<a href="/">Projects</a>
 							</li>
 							<li>
-								<a href="/LoginPage">Login</a>
+								<a href="/LoginPage">About</a>
 							</li>
 							<li>
-								<a href="/AccountApp">Sign Up</a>
+								<a href="/AccountApp">Contact</a>
 							</li>
 						</ul>
 					</div>

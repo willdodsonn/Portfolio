@@ -7,12 +7,11 @@ export const Home = () => {
 	return (
 		<div className="text-center mt-5">
 			<h1>
-				<img src={MyImg} className="myimg" />
-				David Dodson
+				Hey, I'm David
 			</h1>
 
 			<p>
-				This is my portfolio, and the creativity in my front-end work, enjoy!
+				Web developer and designer based in Florida, USA. I base more front-end wise but dabble in the cohorts of back-end data.
 			</p>
 
 		</div>
